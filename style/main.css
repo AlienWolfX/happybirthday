@@ -2,10 +2,20 @@ html {
   box-sizing: border-box;
 }
 
+/* Base typography */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  line-height: 1.35;
 }
+
+/* Headings and emphasis */
+.one { font-weight: 700; }
+.three, .wish-hbd { font-weight: 600; }
+.two, .wish h5, .nine p, .ten p { font-weight: 300; }
 
 .song {
   visibility: hidden;
@@ -213,11 +223,11 @@ body {
   font-size: 2rem;
   font-weight: lighter;
   margin: 10px 0 0;
-}
+}d
 
-.nine p {
-  font-size: 2rem;
-  font-weight: lighter;
+.nine p, .ten p {
+  font-size: 2.6rem;
+  font-weight: 300;
 }
 
 #replay {
@@ -286,7 +296,7 @@ body {
   }
 
   .nine p {
-    font-size: 1.5rem;
-    font-weight: lighter;
+    font-size: 1.6rem;
+    font-weight: 300;
   }
 }
